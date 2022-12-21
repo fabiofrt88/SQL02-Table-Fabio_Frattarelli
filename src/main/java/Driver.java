@@ -50,6 +50,8 @@ public class Driver {
 
             System.out.println("Popoulate table and parameters");
 
+            statement.close();
+
         } catch (SQLException e){
             System.out.println(e.getMessage());
         } finally {
